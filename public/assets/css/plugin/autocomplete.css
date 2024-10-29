@@ -1,0 +1,166 @@
+.aks-plugin_container .autocomplete-container {
+    min-width: 300px;
+}
+.aks-plugin_container .autocomplete-container.no-multiple .autocomplete-value-list:not(:empty) + .autocomplete-input {
+    display: none;
+}
+.aks-plugin_container .autocomplete-container.no-multiple .autocomplete-value-list .autocomplete-value {
+    margin: 0px;
+    flex: 1;
+}
+.aks-plugin_container .autocomplete-container.multiple .autocomplete-value-list.is-full + .autocomplete-input {
+    display: none;
+}
+.aks-plugin_container .autocomplete-container .autocomplete-value-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.aks-plugin_container .autocomplete-container .autocomplete-value-list .autocomplete-value {
+    display: inline-block;
+    color: #333;
+    background-color: #d1d1ff;
+    margin: 3px;
+}
+.aks-plugin_container .autocomplete-container .autocomplete-value-list .autocomplete-value:first-child {
+    margin-left: 0;
+}
+.aks-plugin_container .autocomplete-container .autocomplete-value-list .autocomplete-value:last-child {
+    margin-right: 0;
+}
+.aks-plugin_container .autocomplete-container .autocomplete-value-list .autocomplete-value .autocomplete-value-display {
+    display: flex;
+}
+.aks-plugin_container .autocomplete-container .autocomplete-value-list .autocomplete-value .autocomplete-value-display .autocomplete-value-content {
+    flex: 1;
+    padding: 5px;
+}
+.aks-plugin_container .autocomplete-container .autocomplete-value-list .autocomplete-value .autocomplete-value-remove {
+    background-color: #cc3b3b;
+    display: inline-block;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+}
+.aks-plugin_container .autocomplete-container .autocomplete-value-list .autocomplete-value .autocomplete-value-remove:before {
+    content: "\f182";
+    font-family: "dashicons";
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+.aks-plugin_container .autocomplete-container .autocomplete-value-list .autocomplete-value .autocomplete-value-remove:hover {
+    background-color: #a82c2c;
+}
+.aks-plugin_container .autocomplete-container .autocomplete-input {
+    position: relative;
+}
+.aks-plugin_container .autocomplete-container .autocomplete-input input {
+    box-sizing: border-box;
+    width: 100%;
+}
+.aks-plugin_container .autocomplete-container .autocomplete-input input:not(:focus) + .autocomplete-dropdown-container:not(:active) {
+    display: none !important;
+}
+.aks-plugin_container .autocomplete-container .autocomplete-input .autocomplete-dropdown-container {
+    position: absolute;
+    background-color: white;
+    color: #333;
+    width: 100%;
+    max-height: 250px;
+    z-index: 100;
+    overflow-y: auto;
+    border: 1px solid #999;
+    box-shadow: 3px 3px 3px black;
+    cursor: default;
+}
+.aks-plugin_container .autocomplete-container .autocomplete-input .autocomplete-dropdown-container.top {
+    bottom: -40px;
+}
+.aks-plugin_container .autocomplete-container .autocomplete-input .autocomplete-dropdown-container:not(.open) {
+    display: none;
+}
+.aks-plugin_container .autocomplete-container .autocomplete-input .autocomplete-dropdown-container .autocomplete-loading, .aks-plugin_container .autocomplete-container .autocomplete-input .autocomplete-dropdown-container .autocomplete-no-result {
+    text-align: center;
+    color: #999;
+    font-style: italic;
+    padding: 10px;
+}
+.aks-plugin_container .autocomplete-container .autocomplete-input .autocomplete-dropdown-container .autocomplete-loading {
+    display: none;
+}
+.aks-plugin_container .autocomplete-container .autocomplete-input .autocomplete-dropdown-container .autocomplete-loading:before {
+    content: ' ';
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    display: inline-block;
+    background: url('https://i.gifer.com/VAyR.gif');
+    background-size: 100%;
+    margin-right: 10px;
+}
+.aks-plugin_container .autocomplete-container .autocomplete-input .autocomplete-dropdown-container.loading .autocomplete-results {
+    display: none;
+}
+.aks-plugin_container .autocomplete-container .autocomplete-input .autocomplete-dropdown-container.loading .autocomplete-loading {
+    display: block;
+}
+.aks-plugin_container .autocomplete-container .autocomplete-input .autocomplete-dropdown-container .autocomplete-results .autocomplete-result-list .autocomplete-result {
+    padding: 5px;
+    cursor: pointer;
+}
+.aks-plugin_container .autocomplete-container .autocomplete-input .autocomplete-dropdown-container .autocomplete-results .autocomplete-result-list .autocomplete-result:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.aks-plugin_container .autocomplete-container .autocomplete-input .autocomplete-dropdown-container .autocomplete-results .autocomplete-result-list .autocomplete-result.selected {
+    cursor: default;
+    opacity: 0.5;
+    background-color: transparent;
+}
+.aks-plugin_container .autocomplete-container .autocomplete-input .autocomplete-dropdown-container .autocomplete-results .autocomplete-no-result {
+    display: none;
+}
+.aks-plugin_container .autocomplete-container .autocomplete-input .autocomplete-dropdown-container .autocomplete-results .autocomplete-no-result:before {
+    content: "\f179";
+    font-family: 'dashicons';
+    font-style: normal;
+    font-size: 20px;
+    color: #bbb;
+    margin-right: 10px;
+}
+.aks-plugin_container .autocomplete-container .autocomplete-input .autocomplete-dropdown-container .autocomplete-results .autocomplete-result-list:empty + .autocomplete-no-result {
+    display: block;
+}
+.aks-plugin_container .autocomplete-container .autocomplete-value.type-game.autocomplete-result, .aks-plugin_container .autocomplete-container .autocomplete-result.type-game.autocomplete-result {
+    padding: 2px !important;
+}
+.aks-plugin_container .autocomplete-container .autocomplete-value.type-game .autocomplete-value-content, .aks-plugin_container .autocomplete-container .autocomplete-result.type-game .autocomplete-value-content {
+    padding: 0px !important;
+}
+.aks-plugin_container .autocomplete-container .autocomplete-value.type-game .autocomplete-result-display > div, .aks-plugin_container .autocomplete-container .autocomplete-result.type-game .autocomplete-result-display > div, .aks-plugin_container .autocomplete-container .autocomplete-value.type-game .autocomplete-value-content > div, .aks-plugin_container .autocomplete-container .autocomplete-result.type-game .autocomplete-value-content > div {
+    display: flex;
+    align-items: center;
+}
+.aks-plugin_container .autocomplete-container .autocomplete-value.type-game .autocomplete-result-display > div img, .aks-plugin_container .autocomplete-container .autocomplete-result.type-game .autocomplete-result-display > div img, .aks-plugin_container .autocomplete-container .autocomplete-value.type-game .autocomplete-value-content > div img, .aks-plugin_container .autocomplete-container .autocomplete-result.type-game .autocomplete-value-content > div img {
+    width: 60px;
+    height: 30px;
+}
+.aks-plugin_container .autocomplete-container .autocomplete-value.type-game .autocomplete-result-display > div span, .aks-plugin_container .autocomplete-container .autocomplete-result.type-game .autocomplete-result-display > div span, .aks-plugin_container .autocomplete-container .autocomplete-value.type-game .autocomplete-value-content > div span, .aks-plugin_container .autocomplete-container .autocomplete-result.type-game .autocomplete-value-content > div span {
+    flex: 1;
+    margin: 0 10px;
+    font-size: 16px;
+}
+.aks-plugin_container .autocomplete-container .autocomplete-value.type-user .autocomplete-result-display > div, .aks-plugin_container .autocomplete-container .autocomplete-result.type-user .autocomplete-result-display > div, .aks-plugin_container .autocomplete-container .autocomplete-value.type-user .autocomplete-value-content > div, .aks-plugin_container .autocomplete-container .autocomplete-result.type-user .autocomplete-value-content > div {
+    text-align: left;
+}
+.aks-plugin_container .autocomplete-container .autocomplete-value.type-user .autocomplete-result-display > div > *:first-child, .aks-plugin_container .autocomplete-container .autocomplete-result.type-user .autocomplete-result-display > div > *:first-child, .aks-plugin_container .autocomplete-container .autocomplete-value.type-user .autocomplete-value-content > div > *:first-child, .aks-plugin_container .autocomplete-container .autocomplete-result.type-user .autocomplete-value-content > div > *:first-child {
+    font-weight: bold;
+}
+.aks-plugin_container .autocomplete-container .autocomplete-value.type-user .autocomplete-result-display > div > *:last-child, .aks-plugin_container .autocomplete-container .autocomplete-result.type-user .autocomplete-result-display > div > *:last-child, .aks-plugin_container .autocomplete-container .autocomplete-value.type-user .autocomplete-value-content > div > *:last-child, .aks-plugin_container .autocomplete-container .autocomplete-result.type-user .autocomplete-value-content > div > *:last-child {
+    font-size: 75%;
+}
+.aks-plugin_container .autocomplete-container .autocomplete-value.type-user .autocomplete-result-display > div > *:last-child .user-key, .aks-plugin_container .autocomplete-container .autocomplete-result.type-user .autocomplete-result-display > div > *:last-child .user-key, .aks-plugin_container .autocomplete-container .autocomplete-value.type-user .autocomplete-value-content > div > *:last-child .user-key, .aks-plugin_container .autocomplete-container .autocomplete-result.type-user .autocomplete-value-content > div > *:last-child .user-key {
+    text-decoration: underline;
+}

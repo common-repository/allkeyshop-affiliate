@@ -1,0 +1,197 @@
+# Copyright (C) 2022 Allkeyshop
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Allkeyshop Affiliate 1.0.6\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/aks-affiliate\n"
+"POT-Creation-Date: 2022-11-21T17:38:20+00:00\n"
+"PO-Revision-Date: 2022-11-21 18:39+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Domain: aks-affiliate\n"
+
+#. Plugin Name of the plugin
+msgid "Allkeyshop Affiliate"
+msgstr "Allkeyshop Affiliate"
+
+#. Description of the plugin
+msgid "Earn money by adding game prices comparison widgets"
+msgstr "Gagnez de l'argent en ajoutant des widget de comparaison de prix"
+
+#. Author of the plugin
+msgid "Allkeyshop"
+msgstr "Allkeyshop"
+
+#: public/assets/views/apiKey.php:6
+msgid ""
+"An error occured during while linking your account. Your API key is not a "
+"valid key."
+msgstr "Une erreur s'est produite. Votre clef d'API n'est pas valide."
+
+#: public/assets/views/apiKey.php:10
+msgid "Your account has been successfully linked."
+msgstr "Votre compte a été lié avec succès."
+
+#: public/assets/views/apiKey.php:14
+msgid "Back to your dashboard"
+msgstr "Retour à votre tableau de bord"
+
+#: public/assets/views/apiKey.php:21 public/assets/views/index.php:43
+msgid "You're currently linked to the key : <strong>%s</strong>"
+msgstr "Vous êtes actuellement lié au compte : <strong>%s</strong>"
+
+#: public/assets/views/apiKey.php:27
+msgid "Get your API Key here"
+msgstr "Récupérez votre clef d'API ici"
+
+#: public/assets/views/apiKey.php:31
+msgid "Insert your API Key"
+msgstr "Insérez votre clef d'API"
+
+#: public/assets/views/apiKey.php:35
+msgid "Save Your API Key"
+msgstr "Sauvegarder"
+
+#: public/assets/views/helper/select-template.php:2
+msgid "Default"
+msgstr "Aucun template"
+
+#: public/assets/views/index.php:11
+msgid "Use of the plugin"
+msgstr "Utilisation du plugin"
+
+#: public/assets/views/index.php:13
+msgid ""
+"Allkeyshop is a website to compare price of digital video games with more "
+"than 3 million users every month.<br />Our affiliate program allows you to "
+"earn money for clicks your users make on a personalized and non-intrusive "
+"widget placed on your website.<br /><br />Everything is easy to use, the "
+"tools are designed to be customized to fit the look and content of your site."
+msgstr ""
+"Allkeyshop est un site qui compare le prix de jeux vidéos avec plus de 3 "
+"millions d'utilisateurs chaque mois.<br />\n"
+"Notre programme d'affiliation vous permet de gagner de l'argent pour chaque "
+"clicks que vos utilisateurs sur nos widgets personnalisés et non-intrusive "
+"placé sur votre site.<br />\n"
+"<br />\n"
+"Le tout est facile d'utilisation, les outils sont créés afin d'être "
+"facilement personnalisable et vous permet de correspondre au design de votre "
+"site."
+
+#: public/assets/views/index.php:17
+msgid ""
+"To join our affiliate program, you must register on <a href=\"https://"
+"affiliate.allkeyshop.com/\">https://affiliate.allkeyshop.com</a>, once "
+"registered contact us on <a href=\"mailto:support@allkeyshop.com"
+"\">support@allkeyshop.com</a> to validate the contract<br /><br />Finally, "
+"click on the button below to link your account"
+msgstr ""
+"Pour rejoindre notre programme d'affiliation, vous devez vous inscrire sur "
+"<a href=\"https://affiliate.allkeyshop.com/\">https://affiliate.allkeyshop."
+"com</a>, Puis contacter <a href=\"mailto:support@allkeyshop.com"
+"\">support@allkeyshop.com</a> pour valider le contrat<br /><br />Enfin, "
+"cliquez sur le bouton ci-dessous pour lier votre compte"
+
+#: public/assets/views/index.php:21
+msgid "An error appen during the validation. Please try again later"
+msgstr ""
+"Une erreur est survenue pendant la validation. Veuillez réessayer plus tard"
+
+#: public/assets/views/index.php:24
+msgid ""
+"If the error persist, you can <a href=\"%s\">link your account manually</a>"
+msgstr ""
+"Si cette erreur persiste, vous pouvez <a href=\"%s\">lié votre compte "
+"manuellement</a>"
+
+#: public/assets/views/index.php:31
+msgid "Link my account"
+msgstr "Lié mon compte"
+
+#: public/assets/views/index.php:39
+msgid ""
+"It's recommanded to create your own templates on <a href=\"https://affiliate."
+"allkeyshop.com/\">https://affiliate.allkeyshop.com</a> to have a widget that "
+"fit your own needs"
+msgstr ""
+"Il est recommandé de créer vos propres templates sur <a href=\"https://"
+"affiliate.allkeyshop.com/\">https://affiliate.allkeyshop.com</a> pour avoir "
+"un widget qui correspond exactement à vos besoins."
+
+#: public/assets/views/index.php:50
+msgid "Clicks <em>Last 28 days</em>"
+msgstr "Clicks <em>(28 derniers jours)</em>"
+
+#: public/assets/views/index.php:53
+msgid "Validated Clicks"
+msgstr "Clicks validés"
+
+#: public/assets/views/index.php:59
+msgid "Clicks per game <em>Last 28 days</em>"
+msgstr "Clicks par jeu <em>(28 derniers jours)</em>"
+
+#: public/assets/views/widgetMetaBox.php:3
+msgid "Select a game"
+msgstr "Sélectionnez un jeu"
+
+#: public/assets/views/widgetMetaBox.php:4
+msgid "Type the name of a game"
+msgstr "Insérez le nom d'un jeu"
+
+#: public/assets/views/widgetMetaBox.php:9
+msgid "Options"
+msgstr "Options"
+
+#: public/assets/views/widgetMetaBox.php:10
+msgid "Create Widget"
+msgstr "Créer un widget"
+
+#: public/assets/views/widgetMetaBox.php:12
+msgid "Select a template"
+msgstr "Sélectionnez un template"
+
+#: public/assets/views/widgetMetaBox.php:16
+msgid "Select a position"
+msgstr "Sélectionnez une position"
+
+#: public/assets/views/widgetMetaBox.php:18
+msgid "At the top"
+msgstr "Au début"
+
+#: public/assets/views/widgetMetaBox.php:19
+msgid "At the bottom"
+msgstr "À la fin"
+
+#: public/assets/views/widgetMetaBox.php:20
+msgid "At the cursor position"
+msgstr "À la position du curseur"
+
+#: public/assets/views/widgetMetaBox.php:23
+msgid "Insert Widget"
+msgstr "Insérer le widget"
+
+#: public/assets/views/widgetMetaBox.php:25
+msgid "Create Link"
+msgstr "Créer un lien"
+
+#: public/assets/views/widgetMetaBox.php:27
+msgid "Link type"
+msgstr "Type du lien"
+
+#: public/assets/views/widgetMetaBox.php:29
+msgid "Redirect to the best offer"
+msgstr "Rediriger vers la meilleure offre"
+
+#: public/assets/views/widgetMetaBox.php:30
+msgid "Redirect to the comparator"
+msgstr "Rediriger vers le comparateur"
+
+#: public/assets/views/widgetMetaBox.php:33
+msgid "Insert Link"
+msgstr "Insérez le lien"

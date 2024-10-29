@@ -1,0 +1,56 @@
+.aks-plugin_container .aks-plugin_menu-category {
+    margin-bottom: 50px;
+}
+.aks-plugin_container .aks-plugin_menu-category .aks-plugin_menu-container {
+    font-size: 18px;
+}
+
+.aks-plugin_container .aks-plugin_dashboard {
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+    grid-gap: 15px;
+}
+
+.aks-plugin_container .aks-plugin_dashboard .grid-full {
+    grid-column: span 2
+}
+
+.aks-plugin_container .aks-plugin_content-box {
+    background-color: white;
+    box-shadow: 0 0 2px #999999;
+    padding: 15px;
+}
+
+.aks-plugin_container .aks-plugin_content-box h2,
+.aks-plugin_container .aks-plugin_content-box h3 {
+    margin: 0;
+    margin-bottom: 10px;
+}
+.aks-plugin_container .aks-plugin_content-box h3 em {
+    font-weight: normal;
+    font-size: 80%;
+}
+
+.aks-plugin_container .aks-plugin_content-box p {
+    font-size: 18px;
+}
+
+.aks-plugin_container .aks-plugin_content-box h2 {
+    font-size: 25px;
+}
+
+.aks-plugin_container .aks-plugin_content-box canvas {
+    max-height: 230px;
+}
+
+@media screen and (max-width: 1000px) {
+    .aks-plugin_container .aks-plugin_dashboard {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .aks-plugin_container .aks-plugin_dashboard > * {
+        grid-column: span 1 !important;
+        grid-row: span 1 !important;
+    }
+}

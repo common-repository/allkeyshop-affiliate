@@ -1,0 +1,101 @@
+#aks-plugin-no-api-key {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#aks-plugin-home-link {
+    display: inline-block;
+    margin: 20px;
+    font-size: 18px;
+}
+
+
+.aks-plugin_container #form-api-key button.loading {
+    position: relative;
+    cursor: default !important;
+    opacity: 0.6;
+}
+.aks-plugin_container #form-api-key button.loading:before {
+    content: '';
+    position: absolute;
+    background-image: url('../images/loader.gif');
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.aks-plugin_container #form-api-key button:not(:disabled) {
+    cursor: pointer;
+}
+
+.aks-plugin_container .hide {
+    display: none !important;
+}
+
+.aks-plugin_container .aks-api-key-result {
+    padding: 10px;
+    margin: auto;
+}
+
+.aks-plugin_container .aks-api-key-result h2 {
+    text-align: center;
+    margin: 5px 20px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+.aks-plugin_container .aks-api-key-result p {
+    text-align: center;
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.aks-plugin_container #aks-api-key-success,
+.aks-plugin_container #aks-api-key-success h2 {
+    color: #439143;
+}
+
+.aks-plugin_container #aks-api-key-error,
+.aks-plugin_container #aks-api-key-error h2 {
+    color: #f56d6d;
+}
+
+.aks-plugin_container #api-key-account,
+.aks-plugin_container #api-key-affiliate {
+    font-weight: bold;
+}
+.aks-plugin_container .templates-container {
+    margin: auto;
+}
+.aks-plugin_container .templates-container .template-container {
+    padding: 10px;
+    margin-bottom: 15px;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+}
+.aks-plugin_container .templates-container .template-container.type-vertical {
+    max-width: 400px;
+    min-width: 300px;
+}
+.aks-plugin_container .templates-container .template-container.type-horizontal {
+    max-width: 800px;
+    min-width: 600px;
+}
+.aks-plugin_container .templates-container .template-container .template-name {
+    font-size: 16px;
+    text-decoration: underline;
+    padding: 10px 20px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    border-radius: 5px 5px 0 0;
+}

@@ -1,0 +1,36 @@
+.aks-plugin_tabs-container .aks-plugin_tabs-header {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.aks-plugin_tabs-container .aks-plugin_tabs-header > div {
+    border-radius: 5px 5px 0 0;
+    margin: 0 5px;
+    border-bottom-width: 0px;
+}
+.aks-plugin_tabs-container .aks-plugin_tabs-header > div > * {
+    vertical-align: middle;
+}
+.aks-plugin_tabs-container .aks-plugin_tabs-header > div > .dashicons  {
+    padding-right: 5px;
+}
+
+.aks-plugin_tabs-container .aks-plugin_tabs-header > div:first-child {
+    margin-left: 0;
+}
+
+.aks-plugin_tabs-container .aks-plugin_tabs-header > div.aks-plugin_tab-active {
+    position: relative;
+    top: 1px;
+}
+
+.aks-plugin_tabs-container .aks-plugin_tabs-header + * {
+    border: 1px solid #555;
+    border-radius: 0 5px 5px 5px;
+}
+.aks-plugin_tabs-container .aks-plugin_tabs-content {
+    margin: 10px;
+}
+.aks-plugin_tabs-container .aks-plugin_tabs-content:not(.aks-plugin_tab-show) {
+    display: none;
+}
